@@ -9,9 +9,9 @@ package com.crypto.enums;
  **/
 public enum RSAKeyFileFormat {
 
-    UNKNOWN("unknown", "未知"),
-    PKCS1("PKCS#1", "PKCS#7"),
-    PKCS8("PKCS#8", "PKCS#8"),
+    UNKNOWN("-1", "未知"),
+    PKCS1("2", "PKCS#7"),
+    PKCS8("1", "PKCS#8"),
     ;
     private String name;
     private String desc;
